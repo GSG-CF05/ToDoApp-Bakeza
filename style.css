@@ -1,0 +1,76 @@
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    margin: 150px auto 0 auto;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+
+.form {
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.add {
+    border: none;
+    background-color: rgb(128, 96, 128);
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.tasks {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.tasks .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.tasks .task:hover {
+    background-color: #f7f7f7;
+}
+
+.tasks .task.done {
+    opacity: 0.5;
+}
+
+.tasks .task p {
+    width: 82%;
+}
+
+.tasks .task button {
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: rgb(128, 96, 128);
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
