@@ -1,3 +1,8 @@
+body {
+    /* background-color: rgb(230, 210, 230); */
+    background-image: url(image/wp1836700-aesthetic-wallpapers.jpg);
+}
+
 .container {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 500px;
@@ -16,6 +21,8 @@
 .input {
     padding: 10px;
     border: 1px solid #ddd;
+    /* opacity: 0.8; */
+    background-color: rgb(241, 239, 239);
     border-radius: 6px;
     flex: 1;
 }
@@ -39,7 +46,7 @@
 }
 
 .tasks .task {
-    background-color: white;
+    background-color: rgb(241, 239, 239);
     padding: 10px;
     border-radius: 8px;
     display: flex;
@@ -53,7 +60,7 @@
 }
 
 .tasks .task:hover {
-    background-color: #f7f7f7;
+    background-color: rgb(223, 205, 223);
 }
 
 .tasks .task.done {
